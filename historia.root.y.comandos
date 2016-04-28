@@ -1,0 +1,371 @@
+1  sudo apt-get install tree
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  clear
+    5  ip -4 addr
+    6  ls
+    7  \cd ..
+    8  ls
+    9  clear
+   10  tree
+   11  clear
+   12  ls
+   13  clear
+   14  ip 4 addr
+   15  ip -4 addr
+   16  mysql -u root -p
+   17  clear
+   18  ls
+   19  sudo chown -R $USER:$USER /var/www/lulu.tu/
+   20  sudo chown -R 755 /var/www/
+   21  sudo vim /var/www/lulu.tu/index.html
+   22  clear
+   23  ls
+   24  tree lulu.tu/
+   25  clear
+   26  ls
+   27  cd lulu.tu/
+   28  ls
+   29  less index.html
+   30  clear
+   31  hisotry
+   32  history
+   33  clear
+   34  ls
+   35  cd ..
+   36  clear
+   37  ls
+   38  cd html/
+   39  ls
+   40  cd /etc/apache2/
+   41  ls
+   42  cd sites-available/
+   43  kls
+   44  clear
+   45  ls
+   46  less 000-default.conf
+   47  clear
+   48  ls
+   49  cp 000-default.conf lulu.tu
+   50  sudo cp 000-default.conf lulu.tu
+   51  ls
+   52  clear
+   53  ls
+   54  sudo vim lulu.tu
+   55  cleare
+   56  clear
+   57  ls
+   58  less lulu.tu
+   59  clear
+   60  sudo a2ensite lulu.tu
+   61  sudo a2ensite www.lulu.tu
+   62  sudo service apache2 restart
+   63  clear
+   64  ls
+   65  less lulu.tu
+   66  qqqq
+   67  clear
+   68  ls
+   69  history
+   70  cd
+   71  history > drupalconfig1.historia
+   72  cd /etc/apache2/sites-enabled/
+   73  clear
+   74  ls
+   75  cd /etc/apache2/sites-available/
+   76  ls
+   77  clear
+   78  sudo apt-get update
+   79  sudo apt-get install apache2
+   80  ip -4 aqddr
+   81  ip -4 addr
+   82  sudo apt-get install mysql-server php5-mysql
+   83  sudo mysql_install_db
+   84  sudo mysql_secure_installation
+   85  sudo apt-get install php5 libapache2-mod-php5 php5-mcrypt
+   86  clear
+   87  sudo vim /etc/apache2/mods-enabled/dir.conf
+   88  sudo service apache2 restart
+   89  sudo vim /var/www/html/info.php
+   90  sudo rm /var/www/html/info.php
+   91  ls
+   92  cd /var/www/
+   93  ls
+   94  cd html/
+   95  ls
+   96  clear
+   97  mysql -u root -p
+   98  sudo apt-get update
+   99  sudo apt-get install php5-gd php5-curl libssh2-php
+  100  clear
+  101  sudo vim /etc/php5/apache2/php.ini
+  102  sudo a2enmod rewrite
+  103  service apache2 restart
+  104  sudo service apache2 restart
+  105  clear
+  106  ls
+  107  cd /etc/apache2/
+  108  ls
+  109  cd sites-available/
+  110  ls
+  111  more 000-default.conf
+  112  vim 000-default.conf
+  113  clear
+  114  cd /var/www/
+  115  ls
+  116  sudo mkdir lulu.tu
+  117  ls
+  118  sudo vim /etc/apache2/sites-enabled/0
+  119  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  120  sudo service apache2 restart
+  121  sudo service apache2 sttus
+  122  sudo service apache2 status
+  123  sudo service apache2 reload
+  124  sudo vim /etc/apache2/sites-enabled/0clear
+  125  clear
+  126  ls
+  127  less html/
+  128  cd html/
+  129  ls
+  130  less index.html
+  131  !
+  132  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  133  sudo service apache2 reload
+  134  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  135  sudo service apache2 reload
+  136  sudo service apache2 start
+  137  sudo service apache2 restart
+  138  sudo service apache2 status
+  139  clear
+  140  sudo vim /etc/apache2/sites-enabled/000-default.conf
+  141  sudo service apache2 restart
+  142  sudo service apache2 status
+  143  clear
+  144  cd
+  145  clear
+  146  wget http://ftp.drupal.org/files/projects/drupal-7.32.tar.gz
+  147  tar xzvf drupal*
+  148  clear
+  149  ls
+  150  cd /var/www/
+  151  ls
+  152  cat lulu.tu/
+  153  tree
+  154  cd
+  155  cd drupal-7.32/
+  156  sudo rsync -avz . /var/www/html/
+  157  cd /var/www/html/
+  158  clear
+  159  pwd
+  160  mkdir /var/www/html/sites/default/files
+  161  cp /var/www/html/sites/default/default.settings.php /var/www/html/sites/default/settings.php
+  162  chmod 664 /var/www/html/sites/default/settings.php
+  163  sudo chown -R :www-data /var/www/html/*
+  164  ip -4 addr
+  165  sudo chown -R :www-data /var/www/html/*
+  166  clear
+  167  screen
+  168  ls
+  169  cd /etc/apache2/sites-available/
+  170  kls
+  171  ls
+  172  clear
+  173  ls
+  174  less 0
+  175  less 000-default.conf
+  176  clear
+  177  ls
+  178  ip  addr-
+  179  ip -4 addr
+  180  sudo service apache2 restart
+  181  ls
+  182  sudo vim
+  183  cd ..
+  184  ls
+  185  cd sites-enabled/
+  186  ls
+  187  sudo vim 000-default.conf
+  188  cd ..
+  189  ls
+  190  cd sites-available/
+  191  ls
+  192  less lulu.tu
+  193  ls
+  194  clear
+  195  ls
+  196  cd ..
+  197  ls
+  198  clear
+  199  ls
+  200  cd sites-available/
+  201  ls
+  202  ln -h lulu.tu /etc/apache2/sites-enabled/
+  203  sudo ln lulu.tu /etc/apache2/sites-enabled/
+  204  ls
+  205  cd ..
+  206  cd sites-available/
+  207  ls
+  208  cd ..
+  209  cd sites-enabled/
+  210  ls
+  211  clear
+  212  cd ..
+  213  cd sites-available/
+  214  ls
+  215  less lulu.tu
+  216  qq
+  217  cd /var/www/
+  218  ls
+  219  cd lulu.tu/
+  220  ls
+  221  less index.html
+  222  clear
+  223  sudo apt-get update
+  224  sudo apt-get upgrade
+  225  clear
+  226  sudo service apache2 restart
+  227  sudo service apache2 status
+  228  cleart
+  229  clear
+  230  ls
+  231  cd ..
+  232  ls
+  233  sudo vim /var/www/
+  234  sudo vim /var/www/lulu.tu/
+  235  cd lulu.tu/
+  236  ls
+  237  sudo vim index.html
+  238  clear
+  239  cd /etc/apache2/sites-available/
+  240  ls
+  241  less 000-default.conf
+  242  less lulu.tu
+  243  sudo vim lulu.tu
+  244  clear
+  245  ls
+  246  sudo a2ensite lulu.tu
+  247  sudo service apache2 restart
+  248  ls
+  249  less lulu.tu
+  250  sudo vim 000-default.conf
+  251  clear
+  252  sudo service apache2 restart
+  253  cd ..
+  254  ls
+  255  cd sites-available/
+  256  ls
+  257  rm lulu.tu
+  258  cd
+  259  clear
+  260  history > instalacionvhost.historia
+  261  ls
+  262  ip -4 addr
+  263  pwd
+  264  cd /var/www/
+  265  ls
+  266  clear
+  267  ls
+  268  less html/
+  269  cd html/
+  270  ls
+  271  cd /etc/apache2/
+  272  ls
+  273  cd sites-available/
+  274  ls
+  275  less 000-default.conf
+  276  sudo service apache2 restart
+  277  clear
+  278  ls
+  279  less
+  280  sudo shutdown -h now
+  281  cd /etc/apache2/sites-available/
+  282  ls
+  283  clear
+  284  ls
+  285  sudo vim 000-default.conf
+  286  clear
+  287  ls
+  288  sudo vim 000-default.conf
+  289  sudo a2ensite lulu.tu
+  290  sudo service apache2 restart
+  291  sudo service apache2 status
+  292  cd
+  293  ls
+  294  git config --global user.name "alefernandez24"
+  295  sudo apt-get install git
+  296  git config --global user.name "alefernandez24"
+  297  git config --global user.email "afernandeza@ucenfotec.ac.cr"
+  298  git clone https://github.com/alefernandez24/proyecto1.git
+  299  ls
+  300  git add drupalconfig1.historia
+  301  clear
+  302  git remote show origin
+  303  git clone git@github.com:alefernandez24/proyecto1.git
+  304*
+  305  clear
+  306  git init
+  307  ls
+  308*
+  309  git clone git@github.com:alefernandez24/proyecto1.git
+  310  clear
+  311  git add remote origin https://github.com/alefernandez24/proyecto1.git
+  312  git add origin https://github.com/alefernandez24/proyecto1.git
+  313  git remote add https://github.com/alefernandez24/proyecto1.git
+  314  git remote add -m  https://github.com/alefernandez24/proyecto1.git
+  315  git remote add https://github.com/alefernandez24/proyecto1.git
+  316  git remote add origin https://github.com/alefernandez24/proyecto1.git
+  317  clear
+  318  git status
+  319  git add drupalconfig1.historia
+  320  git add instalacionvhost.historia
+  321  git add .mysql_history
+  322  git status
+  323  git commit -m "historia.proyecto"
+  324  git remote add https://github.com/alefernandez24/proyecto1.git
+  325  git remote add origin https://github.com/alefernandez24/proyecto1.git
+  326  git push -u origin master
+  327  git push -u
+  328  git push -u https://github.com/alefernandez24/proyecto1.git
+  329  git push -u proyecto1
+  330  git push -u origin master
+  331  git pull origin master
+  332  clear
+  333  cd /etc/apache2/sites-available/
+  334  ls
+  335  clear
+  336  ls
+  337  less 000-default.conf
+  338  vim 000-default.conf
+  339  clear
+  340  cd /var/www/
+  341  ls
+  342  tree
+  343  D
+  344  clear
+  345  ls
+  346  cd html/
+  347  ls
+  348  cd ..
+  349  ls lulu.tu/
+  350  cd lulu.tu/
+  351  more index.html
+  352  clear
+  353  ls
+  354  cd
+  355  clear
+  356  la
+  357  cat .bash_history
+  358  clear
+  359  la
+  360  git add .bash_history
+  361  git add .mysql_history
+  362  git commit -m "historia bash y mysql"
+  363  git push origin master
+  364  git pull origin master
+  365  clear
+  366  la
+  367  less .mysql_history
+  368  less .bash_history
+  369  history
+
+
